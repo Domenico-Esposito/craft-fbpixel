@@ -73,7 +73,7 @@ class FbPixel_AddToCartService extends BaseApplicationComponent
 
             $eventData = [
                 'value' => $variant->salePrice,
-                'currency' => 'USD',
+                'currency' => 'EUR',
                 'content_name' => 'Add To Cart',
                 'content_ids' => $variant->sku,
                 'content_type' => 'product'
