@@ -21,7 +21,7 @@ class FbPixel_InitiateCheckoutService extends BaseApplicationComponent
             'content_type' => 'product',
             'num_items' => $cart->getTotalQty(),
             'value' => $cart->totalPrice,
-            'currency' => 'USD'
+            'currency' => 'EUR'
         ];
 
         return $addPaymentInfoRaw . craft()->fbPixel->renderEvent('InitiateCheckout', $item);
