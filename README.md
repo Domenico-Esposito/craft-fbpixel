@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a plugin that provides default Facebook Pixel functionality for Craft Commerce (CraftCMS). For a full list of events supported visit the [wiki](https://github.com/moment-inc/craft-fbpixel/wiki).
+This is a plugin that provides default Facebook Pixel functionality for Craft Commerce (CraftCMS) *in the European market*. For a full list of events supported visit the [wiki](https://github.com/moment-inc/craft-fbpixel/wiki).
 
 ## Getting Started
 
