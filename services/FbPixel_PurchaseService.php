@@ -47,7 +47,7 @@ class FbPixel_PurchaseService extends BaseApplicationComponent
             'content_type' => 'product',
             'num_items' => $this->order->getTotalQty(),
             'value' => $this->order->totalPrice,
-            'currency' => 'USD'
+            'currency' => 'EUR'
         ];
 
         return craft()->fbPixel->renderEvent('Purchase', $eventData);
