@@ -9,7 +9,7 @@ class FbPixel_AddPaymentInfoService extends BaseApplicationComponent
         $cart = craft()->commerce_cart->getCart();
         $eventData = [
             'value' => $cart->totalPrice,
-            'currency' => 'USD',
+            'currency' => 'EUR',
             'content_ids' => array_map(function($i) { return $i->sku; }, $cart->lineItems),
             'content_category' => 'Checkout',
         ];
